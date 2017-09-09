@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600');
+*{
+  -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+       -o-transition: all 0.4s ease-out;
+          transition: all 0.4s ease-out;
+}
+html, body, p, a, ul, li, div, h1, h2, h3, h4{
+  font-family: 'CenturyGothic';
+}
+body {
+  padding-top: 76px;
+  padding-bottom: 20px;
+  font-family: 'CenturyGothic';
+}
+body img{
+  max-width: 100%;
+}
+a{
+  color: #34ab89;
+}
+.navbar{
+  min-height: 76px;
+}
+.header-container{
+  background-color: #ffffff;
+  border: 1px solid whitesmoke;
+}
+.banner-container1{
+  background-image: url('../images/banner1.jpg');
+  min-height: 261px;
+}
+.banner-container6{
+  background-image: url('../images/store-banner.jpg');
+  min-height: 261px;
+}
+.banner-container10{
+  background-image: url('../images/product-support-banner-1.jpg');
+  min-height: 261px;
+}
+.contact-us-banner{
+  background-image: url('../images/contact-us-banner.jpg');
+  min-height: 261px;
+}
+.banner-container2{
+  background-image: url('../images/home-banner.jpg');
+  min-height: 525px;
+}
+.banner-container3{
+  background-image: url('../images/banner3.jpg');
+  min-height: 261px;
+  background-size: cover;
+}
+
+.banner-container3 h1{
+  font-family: 'CenturyGothic';
+  font-size: 25px;
+  color: #126676;
+}
+.banner-container1, .banner-container2{
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  background-position:center;
+}
+.banner-content1, .banner-content2{
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 15px;
+  max-width: 100%;
+  display: table;
+}
+.banner-sub1{
+  height: 250px;
+}
+.banner-sub2{
+  height: 525px;
+}
+.banner-sub1, .banner-sub2{
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 100%;
+  font-family: 'CenturyGothic';
+}
+.banner-sub1 > h3{
+  font-family: 'CenturyGothic-Bold';
+  font-size: 32px;
+}
+.bannerp{
+  font-size: 15px;
+  line-height: 160%;
+}
+.green{
+  color: #006666;
+}
+.green2{
+  color: #34ab89;
+}
+.dblue{
+  color: #126676;
+}
+.navbar-brand{
+  height: auto;
+  padding: 5px 15px;
+}
+.module-prod-bot{
+  margin-bottom: 10%;
+}
+.product-description{
+  padding-top: 40px;
+}
+.product-description ul{
+  padding-left: 15px;
+}
+.product-description p, .module-prod-bot p{
+  line-height: 200%;
+  font-size: 14px;
+}
+#top-menu a{
+  color: #666;
+  font-size: 15px;
+  font-family: 'CenturyGothic-Bold';
+}
+#top-menu a:hover{
+  color: #34ab89;
+}
+#top-mnu li{
+  position: relative;
+}
+#top-menu ul{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: none;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  background-color: rgba(204, 204, 204, 0.85);
+  padding: 15px;
+}
+
+#top-menu li:hover ul{
+  display: block;
+}
+span.counter{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 2 !important;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  font-family: 'CenturyGothic' !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #126676;
+}
+.navbar-toggle{
+  margin-top: 19px;
+  margin-bottom: 20px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color: #ffffff;
+  color: #34ab89 !important;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+  background-color: whitesmoke;
+}
+.page-header{
+  margin: 50px 0 10px;
+  border: 0;
+}
+.page-header h3{
+  font-weight: 300;
+}
+.thumbnail{
+  border-radius: 0;
+}
+.btn-add-cart{
+  border-radius: 20px;
+  background-color: #fff;
+  border: solid 1px #34ab89;
+  color: #34ab89;
+}
+.product-item{
+  margin-bottom: 20px;
+}
+.product-text{
+  min-height: 65px;
+  overflow: hidden;
+  color: #126676;
+}
+.product-text a{
+  color: #126676;
+  font-size: 15px;
+}
+.product-text a:hover{
+  text-decoration: underline;
+}
+ul.price h2{
+  font-family: 'CenturyGothic';
+  font-size: 25px;
+}
+.input-group-product{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.input-group-product > .input-group-addon{
+  font-family: 'CenturyGothic';
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 0;
+  border: none;
+  background-color: transparent;
+}
+.input-group-product > .form-control{
+  border-color: #ededed;
+  width: 75%;
+}
+.input-group-product > .input-group-btn > .btn{
+  border-color: #34ab89;
+  border-radius: 0;
+  background-color: transparent;
+  color: #34ab89;
+}
+.btn-product{
+  background-color: #34ab89;
+  font-family: 'CenturyGothic';
+  text-transform: uppercase;
+  border-color: #34ab89;
+  border-radius: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.input-group-product > .input-group-btn > .btn:focus{
+  outline: none;
+}
+ul.breadcrumbs{
+  display: block;
+  padding-left: 0;
+  margin: 40px 0;
+}
+ul.breadcrumbs > li{
+  display: inline-block;
+  font-family: 'CenturyGothic';
+  font-size: 16px;
+}
+ul.breadcrumbs > li:first-child a{
+  color: #6d6d6d;
+}
+ul.breadcrumbs > li:after{
+  font-family: FontAwesome;
+  content: '\f105';
+  padding-left: 10px;
+  padding-right: 5px;
+}
+ul.breadcrumbs > li:last-child:after{
+  content: '';
+}
+label.control-label{
+  font-family: 'CenturyGothic';
+  font-size: 16px;
+  font-weight: 400;
+}
+div.color-option input[type="radio"]{
+  display: none;
+}
+div.color-option{
+  padding-left: 5px;
+}
+div.color-option+div.color-option{
+  margin-left: 0;
+}
+div.color-option img{
+  cursor: pointer;
+}
+p.others-bought{
+  font-family: 'CenturyGothic';
+  font-size: 25px;
+  font-weight: 300;
+  margin: 60px 0 30px 0;
+}
+.pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span, .pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span{
+  border-radius: 0;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #ffffff;
+  border-color: #34ab89;
+  color: #34ab89;
+}
+.navigation-bottom{
+  margin-bottom: 25px;
+}
+.banner-bottom-container{
+  position: relative;
+}
+.banner-bottom-container img{
+  width: 100%;
+}
+.banner-bottom-container a:hover{
+  text-decoration: none;
+}
+footer{
+  color: #6d6d6d;
+  text-align: left;
+}
+footer a{
+  color: #6d6d6d;
+}
+footer a:hover{
+  text-decoration: none;
+}
+.footer-left, .footer-center, .footer-right{
+  padding: 15px;
+}
+.footer-right{
+  text-align: right;
+}
+.footer-right a{
+  margin: 10px;
+  text-align: right;
+}
+.footer-right a:last-child{
+  margin-right: 0;
+}
+.footer-right a:first-child{
+  margin-left: 0;
+}
+.pill{
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.53);
+  border: 1px solid #34ab89;
+  color: #34ab89;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+}
+.pill:hover{
+  text-decoration: none;
+}
+.white-pill{
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 0;
+  color: #34ab89;
+  padding: 5px 20px;
+}
+.btn-green{
+  border-color: #34ab89;
+  border-radius: 20px;
+  color: #34ab89;
+  font-weight: 400;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+.btn-green:hover{
+  background-color: transparent;
+}
+input[type="radio"]:checked + img{
+  border: solid 3px #34ab88;
+  border-radius: 17px;
+}
+.category-text{
+  min-height: 65px;
+}
+.form-default input[type="text"],.form-default input[type="email"],.form-default textarea,.form-default input[type="date"]{
+  border-color: #ededed;
+  border-radius: 15px;
+}
+
+.form-default label{
+  color: #327a88;
+  font-family: 'CenturyGothic';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.owl-carousel{
+  margin-bottom: 80px !important;
+}
+
+.owl-wrapper-outer{
+  border: 0 !important;
+}
+
+.owl-item{
+  max-width: 100% !important;
+}
+
+.owl-item h1{
+  color: #126676;
+  margin: 118px 0;
+  line-height: 1;
+  font-family: 'CenturyGothic-Bold';
+  font-size: 32px;
+}
+
+span.counter{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  line-height: 1.5;
+  background-color: #a00707;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  top: 45%;
+}
+
+.fa-shopping-cart{
+  font-size: 20px;
+}
+
+h1.page-title{
+  font-size: 30px;
+  color: #126676;
+}
+
+@media (max-width: 768px){
+  .banner-content2{
+    width: 100%;
+  }
+  .footer-right{
+    text-align: left;
+  }
+  #top-menu{
+    margin-top: 0;
+  }
+  #top-menu li{
+    border-bottom: 1px solid whitesmoke;
+  }
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    background-color: #126676;
+    color: #ffffff !important;
+  }
+  .banner-bottom-left, .banner-bottom-right{
+    margin-bottom: 20px;
+  }
+  .footer-right a{
+    margin: 10px;
+    text-align: left;
+  }
+}
+@media (min-width: 768px){
+  .banner-bottom-left, .banner-bottom-right{
+    margin-bottom: 80px;
+  }
+  ul.nav.navbar-nav{
+    float: right;
+  }
+  .navbar-nav > li > a{
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+}
